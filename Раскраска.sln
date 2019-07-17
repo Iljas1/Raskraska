@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Компоненты решения", "Компоненты решения", "{4A72B4A4-DF72-42E1-9C77-5227D4578C04}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\Admin\Desktop\КНИГИ для ПО\DxmXfyXXgAEj3QO.jpg = ..\..\Users\Admin\Desktop\КНИГИ для ПО\DxmXfyXXgAEj3QO.jpg
+		..\..\Users\Admin\Desktop\Мои программы\1Раскраска\Раскрась домик.png = ..\..\Users\Admin\Desktop\Мои программы\1Раскраска\Раскрась домик.png
+		..\..\Users\Admin\Desktop\Мои программы\1Раскраска\Самалётик.png = ..\..\Users\Admin\Desktop\Мои программы\1Раскраска\Самалётик.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Раскраска", "Раскраска\Раскраска.csproj", "{8D8A0857-51D7-40B3-9A4F-B93837440D7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D8A0857-51D7-40B3-9A4F-B93837440D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8A0857-51D7-40B3-9A4F-B93837440D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8A0857-51D7-40B3-9A4F-B93837440D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8A0857-51D7-40B3-9A4F-B93837440D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28A61A30-D913-4D82-911E-A05F7D6BA345}
+	EndGlobalSection
+EndGlobal
