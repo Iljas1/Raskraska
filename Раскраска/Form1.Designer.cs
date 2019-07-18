@@ -52,12 +52,12 @@ namespace Раскраска
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button17 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.менюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.предыдущееЗаданиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.игратьЗановоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
@@ -67,16 +67,31 @@ namespace Раскраска
             this.button21 = new System.Windows.Forms.Button();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.button13 = new System.Windows.Forms.Button();
-            this.игратьЗановоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(176, 106);
+            this.button2.Location = new System.Drawing.Point(222, 115);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 31);
             this.button2.TabIndex = 1;
@@ -87,7 +102,7 @@ namespace Раскраска
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(88, 162);
+            this.button3.Location = new System.Drawing.Point(134, 171);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(35, 31);
             this.button3.TabIndex = 2;
@@ -98,7 +113,7 @@ namespace Раскраска
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(48, 190);
+            this.button4.Location = new System.Drawing.Point(94, 199);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 31);
             this.button4.TabIndex = 3;
@@ -109,7 +124,7 @@ namespace Раскраска
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(116, 162);
+            this.button5.Location = new System.Drawing.Point(162, 171);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(34, 31);
             this.button5.TabIndex = 4;
@@ -120,7 +135,7 @@ namespace Раскраска
             // 
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(116, 190);
+            this.button6.Location = new System.Drawing.Point(162, 199);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 31);
             this.button6.TabIndex = 5;
@@ -131,7 +146,7 @@ namespace Раскраска
             // 
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(176, 162);
+            this.button7.Location = new System.Drawing.Point(222, 171);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(87, 31);
             this.button7.TabIndex = 6;
@@ -142,7 +157,7 @@ namespace Раскраска
             // 
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(188, 190);
+            this.button8.Location = new System.Drawing.Point(234, 199);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 31);
             this.button8.TabIndex = 7;
@@ -153,7 +168,7 @@ namespace Раскраска
             // 
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button9.BackColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(257, 190);
+            this.button9.Location = new System.Drawing.Point(303, 199);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(56, 31);
             this.button9.TabIndex = 8;
@@ -164,7 +179,7 @@ namespace Раскраска
             // 
             this.button10.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(257, 162);
+            this.button10.Location = new System.Drawing.Point(303, 171);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(56, 31);
             this.button10.TabIndex = 9;
@@ -175,7 +190,7 @@ namespace Раскраска
             // 
             this.button11.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button11.BackColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(269, 134);
+            this.button11.Location = new System.Drawing.Point(315, 143);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(44, 31);
             this.button11.TabIndex = 10;
@@ -186,7 +201,7 @@ namespace Раскраска
             // 
             this.button12.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button12.BackColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(284, 104);
+            this.button12.Location = new System.Drawing.Point(330, 113);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(29, 34);
             this.button12.TabIndex = 11;
@@ -197,7 +212,7 @@ namespace Раскраска
             // 
             this.button14.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button14.BackColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(146, 134);
+            this.button14.Location = new System.Drawing.Point(192, 143);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(75, 31);
             this.button14.TabIndex = 13;
@@ -208,7 +223,7 @@ namespace Раскраска
             // 
             this.button15.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button15.BackColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(146, 220);
+            this.button15.Location = new System.Drawing.Point(192, 229);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(75, 31);
             this.button15.TabIndex = 14;
@@ -219,7 +234,7 @@ namespace Раскраска
             // 
             this.button16.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button16.BackColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(174, 246);
+            this.button16.Location = new System.Drawing.Point(220, 255);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(75, 31);
             this.button16.TabIndex = 15;
@@ -230,32 +245,22 @@ namespace Раскраска
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(146, 162);
+            this.button1.Location = new System.Drawing.Point(192, 171);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(36, 31);
             this.button1.TabIndex = 16;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(555, 44);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(352, 270);
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            // 
             // button17
             // 
-            this.button17.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button17.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(555, 344);
+            this.button17.Location = new System.Drawing.Point(389, 518);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(352, 62);
+            this.button17.Size = new System.Drawing.Size(227, 42);
             this.button17.TabIndex = 19;
             this.button17.Text = "Проверка задания";
             this.button17.UseVisualStyleBackColor = false;
@@ -294,6 +299,13 @@ namespace Раскраска
             this.выходToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.ВыходToolStripMenuItemClick);
+            // 
+            // игратьЗановоToolStripMenuItem
+            // 
+            this.игратьЗановоToolStripMenuItem.Name = "игратьЗановоToolStripMenuItem";
+            this.игратьЗановоToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.игратьЗановоToolStripMenuItem.Text = "Играть заново";
+            this.игратьЗановоToolStripMenuItem.Click += new System.EventHandler(this.ИгратьЗановоToolStripMenuItem_Click);
             // 
             // radioButton1
             // 
@@ -339,7 +351,7 @@ namespace Раскраска
             // 
             this.button20.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button20.BackColor = System.Drawing.Color.Teal;
-            this.button20.Location = new System.Drawing.Point(614, 628);
+            this.button20.Location = new System.Drawing.Point(651, 628);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 23);
             this.button20.TabIndex = 26;
@@ -348,7 +360,7 @@ namespace Раскраска
             // radioButton3
             // 
             this.radioButton3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.radioButton3.Location = new System.Drawing.Point(595, 628);
+            this.radioButton3.Location = new System.Drawing.Point(632, 628);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(13, 24);
             this.radioButton3.TabIndex = 25;
@@ -377,24 +389,179 @@ namespace Раскраска
             // 
             // button13
             // 
-            this.button13.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.button13.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(23, 344);
+            this.button13.Location = new System.Drawing.Point(389, 566);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(352, 62);
+            this.button13.Size = new System.Drawing.Size(227, 42);
             this.button13.TabIndex = 29;
             this.button13.Text = "Играть заново";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.Button13_Click);
             // 
-            // игратьЗановоToolStripMenuItem
+            // pictureBox1
             // 
-            this.игратьЗановоToolStripMenuItem.Name = "игратьЗановоToolStripMenuItem";
-            this.игратьЗановоToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.игратьЗановоToolStripMenuItem.Text = "Играть заново";
-            this.игратьЗановоToolStripMenuItem.Click += new System.EventHandler(this.ИгратьЗановоToolStripMenuItem_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(984, 681);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button22
+            // 
+            this.button22.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button22.BackColor = System.Drawing.Color.Black;
+            this.button22.Location = new System.Drawing.Point(709, 171);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(36, 31);
+            this.button22.TabIndex = 45;
+            this.button22.UseVisualStyleBackColor = false;
+            // 
+            // button23
+            // 
+            this.button23.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button23.BackColor = System.Drawing.Color.Black;
+            this.button23.Location = new System.Drawing.Point(737, 255);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 31);
+            this.button23.TabIndex = 44;
+            this.button23.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            this.button24.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button24.BackColor = System.Drawing.Color.Black;
+            this.button24.Location = new System.Drawing.Point(709, 229);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(75, 31);
+            this.button24.TabIndex = 43;
+            this.button24.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            this.button25.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button25.BackColor = System.Drawing.Color.Black;
+            this.button25.Location = new System.Drawing.Point(709, 143);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(75, 31);
+            this.button25.TabIndex = 42;
+            this.button25.UseVisualStyleBackColor = false;
+            // 
+            // button26
+            // 
+            this.button26.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button26.BackColor = System.Drawing.Color.Black;
+            this.button26.Location = new System.Drawing.Point(847, 113);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(29, 34);
+            this.button26.TabIndex = 41;
+            this.button26.UseVisualStyleBackColor = false;
+            // 
+            // button27
+            // 
+            this.button27.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button27.BackColor = System.Drawing.Color.Black;
+            this.button27.Location = new System.Drawing.Point(832, 143);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(44, 31);
+            this.button27.TabIndex = 40;
+            this.button27.UseVisualStyleBackColor = false;
+            // 
+            // button28
+            // 
+            this.button28.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button28.BackColor = System.Drawing.Color.Black;
+            this.button28.Location = new System.Drawing.Point(820, 171);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(56, 31);
+            this.button28.TabIndex = 39;
+            this.button28.UseVisualStyleBackColor = false;
+            // 
+            // button29
+            // 
+            this.button29.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button29.BackColor = System.Drawing.Color.Black;
+            this.button29.Location = new System.Drawing.Point(820, 199);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(56, 31);
+            this.button29.TabIndex = 38;
+            this.button29.UseVisualStyleBackColor = false;
+            // 
+            // button30
+            // 
+            this.button30.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button30.BackColor = System.Drawing.Color.Black;
+            this.button30.Location = new System.Drawing.Point(751, 199);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(75, 31);
+            this.button30.TabIndex = 37;
+            this.button30.UseVisualStyleBackColor = false;
+            // 
+            // button31
+            // 
+            this.button31.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button31.BackColor = System.Drawing.Color.Black;
+            this.button31.Location = new System.Drawing.Point(739, 171);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(87, 31);
+            this.button31.TabIndex = 36;
+            this.button31.UseVisualStyleBackColor = false;
+            // 
+            // button32
+            // 
+            this.button32.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button32.BackColor = System.Drawing.Color.Black;
+            this.button32.Location = new System.Drawing.Point(679, 199);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(75, 31);
+            this.button32.TabIndex = 35;
+            this.button32.UseVisualStyleBackColor = false;
+            // 
+            // button33
+            // 
+            this.button33.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button33.BackColor = System.Drawing.Color.Yellow;
+            this.button33.Location = new System.Drawing.Point(679, 171);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(34, 31);
+            this.button33.TabIndex = 34;
+            this.button33.UseVisualStyleBackColor = false;
+            // 
+            // button34
+            // 
+            this.button34.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button34.BackColor = System.Drawing.Color.Black;
+            this.button34.Location = new System.Drawing.Point(611, 199);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(75, 31);
+            this.button34.TabIndex = 33;
+            this.button34.UseVisualStyleBackColor = false;
+            // 
+            // button35
+            // 
+            this.button35.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button35.BackColor = System.Drawing.Color.Yellow;
+            this.button35.Location = new System.Drawing.Point(651, 171);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(35, 31);
+            this.button35.TabIndex = 32;
+            this.button35.UseVisualStyleBackColor = false;
+            // 
+            // button36
+            // 
+            this.button36.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button36.BackColor = System.Drawing.Color.Black;
+            this.button36.Location = new System.Drawing.Point(739, 115);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(75, 31);
+            this.button36.TabIndex = 31;
+            this.button36.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -402,6 +569,21 @@ namespace Раскраска
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(984, 681);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.button24);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button26);
+            this.Controls.Add(this.button27);
+            this.Controls.Add(this.button28);
+            this.Controls.Add(this.button29);
+            this.Controls.Add(this.button30);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button32);
+            this.Controls.Add(this.button33);
+            this.Controls.Add(this.button34);
+            this.Controls.Add(this.button35);
+            this.Controls.Add(this.button36);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.radioButton4);
@@ -412,7 +594,6 @@ namespace Раскраска
             this.Controls.Add(this.button18);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.button17);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
@@ -429,14 +610,15 @@ namespace Раскраска
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Самалётик";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -454,7 +636,6 @@ namespace Раскраска
 		private System.Windows.Forms.ToolStripMenuItem менюToolStripMenuItem;
 		private System.Windows.Forms.MenuStrip menuStrip1;
 		private System.Windows.Forms.Button button17;
-		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Button button16;
 		private System.Windows.Forms.Button button15;
@@ -472,5 +653,21 @@ namespace Раскраска
 		private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.ToolStripMenuItem игратьЗановоToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button36;
     }
 }
